@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Crafty Girls", cursive;
+}
+
+
+    body {
+         display:  flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+         background-image: url(images/tumblr_inline_n1t6h3Dyh61qfc9y0540.gif);
+         margin: 0;
+    }
+
+
+    .box {
+        width: 420px;
+        background: #c0ddbe;
+        color:  #6698cc;
+        border-radius: 10px;
+        padding: 30px 40px;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 25%
+    }
+
+    .box h1 {
+        font-size: 35pt;
+        text-align: center;
+    }
+
+    .box .input-box{
+       width: 100px;
+       height: 50px;
+       margin: 30px 0;
+    }
+
+    .input-box input {
+       width: 330px;
+       height: 100%;
+       background: transparent;
+       border: none;
+       outline: none;
+       border: 2px solid #6698cc;
+       border-radius: 40px;
+       font-size: 18px;
+       color: rgb(255, 255, 255);
+       padding: 20px 45px 20px 20px;
+    }
+
+    
+    .input-box input::placeholder {
+        color:#6698cc;
+    }
+
+    .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .box .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+    }
+
+    .remember-forgot label input {
+        accent-color: #c0ddbe;
+        margin-right: 3px;
+    }
+
+    .remember-forgot a {
+        color: #6698cc;
+        text-decoration: none;
+    }
+
+    .remember-forgot a:hover {
+        text-decoration: underline;
+    }
+
+    .box .button {
+        width: 100%;
+        height: 45px;
+        background-color: #6698cc;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #c0ddbe;
+        font-weight: 500;
+        border: none;
+        }
+
+     li{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+
+}
+
+ul, a {
+    font-family: "Crafty Girls", cursive;
+    color: #c0ddbe;
+    text-align: center;
+    font-size: larger;
+}
+
+.container {
+    container {
+    display: grid;
+    gap: 10px;
+    padding: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+}
+
+
+
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/monster-the-legend-of-zelda-6f2f22ae-css.webp') 0 0, auto !important;
+}
+    
