@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cause:wght@100..900&family=Crafty+Girls&family=Shadows+Into+Light+Two&family=Waiting+for+the+Sunrise&display=swap');
+
+
+.grid-container {
+max-width: 1000px;
+margin:10px auto;
+display:grid;
+grid-gap: 20px;
+grid-template-columns: 250px minmax(0, 1fr);
+overflow: hidden;
+}
+
+body {
+    background-image: url(images/tumblr_inline_n1t6h3Dyh61qfc9y0540.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+  nav, main, section, footer {
+    border-radius: 5px;
+    padding: 20px;
+    color:#3e9dc3;
+}
+
+
+header {
+    text-align: center;
+    margin: 10px auto;
+    padding: 0%;
+    font-family: "Crafty Girls", cursive;
+    color: #c0ddbe;
+    font-size: xx-large;
+    gap: 10px;
+    transition: transform 0.10s ease;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: xx-large;
+}
+
+@keyframes move {
+    0% {color: rgb(255, 238, 109); }
+    50% {color: #c0ddbe;  }
+    100% {color: rgb(142, 183, 255);}
+}
+    
+
+nav {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    background-color: #6698cc;
+}
+
+
+main {
+    grid-row: 2/3;
+    grid-column: span 2;
+    background-color: #afe4a9;
+    font-family: "Crafty Girls", cursive;
+}
+
+
+footer {
+    grid-row: span 3;
+    grid-column: span 2;
+    background-color: #6698cc;
+    font-family: "Crafty Girls", cursive;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+    margin: 10px;
+}
+
+#h1-container {
+ display: block;
+ align-items: center;
+ gap: 10px;
+}
+
+#h1-container img{
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+
+}
+
+ul, a {
+    font-family: "Crafty Girls", cursive;
+    color: #c0ddbe;
+    text-align: center;
+    font-size: large;
+}
+
+.container {
+    container {
+    display: grid;
+    gap: 10px;
+    padding: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+}
+
+
+
+.grid-item img {
+   object-fit: contain;
+    width: 100%;
+    height:100%;
+}
+
+p {
+    font-size: large;
+    text-align: left;
+    margin-top: 100px;
+}
+
+   span {
+    color:  #afe4a9;;
+}
+
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/monster-the-legend-of-zelda-6f2f22ae-css.webp') 0 0, auto !important;
+}
